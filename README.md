@@ -1,0 +1,1 @@
+# cvs-tsk-ministry-plate-init

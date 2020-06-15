@@ -1,0 +1,13 @@
+sqs:
+  local:
+    params:
+      region: sqs
+      endpoint: http://sqs:9324
+      apiVersion: "2012-11-05"
+    queueName:
+      - ministry-plate-q
+  remote:
+    params:
+      apiVersion: "2012-11-05"
+    queueName:
+      - ministry-plate-init-${BRANCH}-queue

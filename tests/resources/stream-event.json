@@ -1,0 +1,1782 @@
+{
+  "Records": [
+    {
+      "eventID": "2ee103ed7f23de170e6718f260e32582",
+      "eventName": "MODIFY",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "eu-west-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1592228001,
+        "Keys": {
+          "systemNumber": {
+            "S": "1100047"
+          },
+          "vin": {
+            "S": "ABCDEFGH654321"
+          }
+        },
+        "NewImage": {
+          "partialVin": {
+            "S": "654321"
+          },
+          "secondaryVrms": {
+            "L": [
+              {
+                "S": "lelele"
+              }
+            ]
+          },
+          "systemNumber": {
+            "S": "1100047"
+          },
+          "techRecord": {
+            "L": [
+              {
+                "M": {
+                  "bodyType": {
+                    "M": {
+                      "code": {
+                        "S": "a"
+                      },
+                      "description": {
+                        "S": "articulated"
+                      }
+                    }
+                  },
+                  "notes": {
+                    "S": "string"
+                  },
+                  "functionCode": {
+                    "S": "A"
+                  },
+                  "lastUpdatedAt": {
+                    "S": "2020-06-15T13:33:21.151Z"
+                  },
+                  "brakes": {
+                    "M": {
+                      "dtpNumber": {
+                        "S": "DTPNUM"
+                      }
+                    }
+                  },
+                  "offRoad": {
+                    "BOOL": true
+                  },
+                  "axles": {
+                    "L": [
+                      {
+                        "M": {
+                          "axleNumber": {
+                            "N": "0"
+                          },
+                          "tyres": {
+                            "M": {
+                              "tyreSize": {
+                                "S": "string"
+                              },
+                              "fitmentCode": {
+                                "S": "double"
+                              },
+                              "dataTrAxles": {
+                                "N": "0"
+                              },
+                              "plyRating": {
+                                "S": "a"
+                              },
+                              "tyreCode": {
+                                "N": "0"
+                              }
+                            }
+                          },
+                          "parkingBrakeMrk": {
+                            "BOOL": true
+                          },
+                          "weights": {
+                            "M": {
+                              "gbWeight": {
+                                "N": "0"
+                              },
+                              "designWeight": {
+                                "N": "0"
+                              },
+                              "eecWeight": {
+                                "N": "0"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "frontAxleTo5thWheelCouplingMin": {
+                    "N": "0"
+                  },
+                  "createdAt": {
+                    "S": "2019-06-26T10:26:54.903Z"
+                  },
+                  "grossGbWeight": {
+                    "N": "6"
+                  },
+                  "microfilm": {
+                    "M": {
+                      "microfilmSerialNumber": {
+                        "S": "1234"
+                      },
+                      "microfilmRollNumber": {
+                        "S": "12367"
+                      },
+                      "microfilmDocumentType": {
+                        "S": "PSV Miscellaneous"
+                      }
+                    }
+                  },
+                  "variantVersionNumber": {
+                    "S": "3435"
+                  },
+                  "model": {
+                    "S": "string"
+                  },
+                  "noOfAxles": {
+                    "N": "0"
+                  },
+                  "maxTrainGbWeight": {
+                    "N": "0"
+                  },
+                  "vehicleType": {
+                    "S": "hgv"
+                  },
+                  "grossDesignWeight": {
+                    "N": "0"
+                  },
+                  "plates": {
+                    "L": [
+                      {
+                        "M": {
+                          "plateIssueDate": {
+                            "S": "2019-12-13"
+                          },
+                          "plateReasonForIssue": {
+                            "S": "Free replacement"
+                          },
+                          "plateSerialNumber": {
+                            "S": "string"
+                          },
+                          "plateIssuer": {
+                            "S": "string"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "vehicleConfiguration": {
+                    "S": "rigid"
+                  },
+                  "regnDate": {
+                    "S": "2019-12-13"
+                  },
+                  "tachoExemptMrk": {
+                    "BOOL": true
+                  },
+                  "trainGbWeight": {
+                    "N": "0"
+                  },
+                  "maxTrainEecWeight": {
+                    "N": "0"
+                  },
+                  "reasonForCreation": {
+                    "S": "string"
+                  },
+                  "roadFriendly": {
+                    "BOOL": true
+                  },
+                  "euVehicleCategory": {
+                    "S": "m1"
+                  },
+                  "statusCode": {
+                    "S": "archived"
+                  },
+                  "lastUpdatedByName": {
+                    "S": "sean"
+                  },
+                  "frontAxleToRearAxle": {
+                    "N": "0"
+                  },
+                  "drawbarCouplingFitted": {
+                    "BOOL": true
+                  },
+                  "variantNumber": {
+                    "S": "22"
+                  },
+                  "approvalType": {
+                    "S": "NTA"
+                  },
+                  "approvalTypeNumber": {
+                    "S": "string"
+                  },
+                  "conversionRefNo": {
+                    "S": "string"
+                  },
+                  "maxTrainDesignWeight": {
+                    "N": "0"
+                  },
+                  "applicantDetails": {
+                    "M": {
+                      "emailAddress": {
+                        "S": "string"
+                      },
+                      "telephoneNumber": {
+                        "S": "string"
+                      },
+                      "address3": {
+                        "S": "string"
+                      },
+                      "address2": {
+                        "S": "string"
+                      },
+                      "address1": {
+                        "S": "string"
+                      },
+                      "name": {
+                        "S": "string"
+                      },
+                      "postCode": {
+                        "S": "string"
+                      },
+                      "postTown": {
+                        "S": "string"
+                      }
+                    }
+                  },
+                  "lastUpdatedById": {
+                    "S": "12345"
+                  },
+                  "euroStandard": {
+                    "S": "string"
+                  },
+                  "vehicleClass": {
+                    "M": {
+                      "code": {
+                        "S": "2"
+                      },
+                      "description": {
+                        "S": "motorbikes over 200cc or with a sidecar"
+                      }
+                    }
+                  },
+                  "make": {
+                    "S": "string"
+                  },
+                  "speedLimiterMrk": {
+                    "BOOL": true
+                  },
+                  "frontAxleTo5thWheelCouplingMax": {
+                    "N": "0"
+                  },
+                  "recordCompleteness": {
+                    "S": "complete"
+                  },
+                  "grossEecWeight": {
+                    "N": "0"
+                  },
+                  "frontAxleTo5thWheelMax": {
+                    "N": "0"
+                  },
+                  "ntaNumber": {
+                    "S": "string"
+                  },
+                  "emissionsLimit": {
+                    "N": "0"
+                  },
+                  "fuelPropulsionSystem": {
+                    "S": "DieselPetrol"
+                  },
+                  "trainDesignWeight": {
+                    "N": "0"
+                  },
+                  "adrDetails": {
+                    "M": {
+                      "vehicleDetails": {
+                        "M": {
+                          "approvalDate": {
+                            "S": "2019-10-10"
+                          },
+                          "type": {
+                            "S": "Centre axle battery"
+                          }
+                        }
+                      },
+                      "applicantDetails": {
+                        "M": {
+                          "town": {
+                            "S": "string"
+                          },
+                          "city": {
+                            "S": "string"
+                          },
+                          "street": {
+                            "S": "string"
+                          },
+                          "name": {
+                            "S": "string"
+                          },
+                          "postcode": {
+                            "S": "string"
+                          }
+                        }
+                      },
+                      "permittedDangerousGoods": {
+                        "L": [
+                          {
+                            "S": "FP <61 (FL)"
+                          }
+                        ]
+                      },
+                      "additionalExaminerNotes": {
+                        "S": "string"
+                      },
+                      "memosApply": {
+                        "L": [
+                          {
+                            "S": "07/09 3mth leak ext"
+                          }
+                        ]
+                      },
+                      "additionalNotes": {
+                        "M": {
+                          "number": {
+                            "L": [
+                              {
+                                "S": "1"
+                              },
+                              {
+                                "S": "2"
+                              }
+                            ]
+                          },
+                          "guidanceNotes": {
+                            "L": [
+                              {
+                                "S": "New certificate requested"
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "tank": {
+                        "M": {
+                          "tankDetails": {
+                            "M": {
+                              "yearOfManufacture": {
+                                "N": "0"
+                              },
+                              "tc2Details": {
+                                "M": {
+                                  "tc2Type": {
+                                    "S": "initial"
+                                  }
+                                }
+                              },
+                              "specialProvisions": {
+                                "S": "string"
+                              },
+                              "tankManufacturerSerialNo": {
+                                "S": "string"
+                              },
+                              "tankCode": {
+                                "S": "string"
+                              },
+                              "tankTypeAppNo": {
+                                "S": "string"
+                              },
+                              "tankManufacturer": {
+                                "S": "string"
+                              }
+                            }
+                          },
+                          "tankStatement": {
+                            "M": {
+                              "statement": {
+                                "S": "string"
+                              },
+                              "substancesPermitted": {
+                                "S": "Substances permitted under the tank code and any special provisions specified in 9 may be carried"
+                              },
+                              "productList": {
+                                "S": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "trainEecWeight": {
+                    "N": "0"
+                  },
+                  "tyreUseCode": {
+                    "S": "2"
+                  },
+                  "frontAxleTo5thWheelMin": {
+                    "N": "0"
+                  },
+                  "manufactureYear": {
+                    "N": "0"
+                  },
+                  "numberOfWheelsDriven": {
+                    "NULL": true
+                  },
+                  "dimensions": {
+                    "M": {
+                      "axleSpacing": {
+                        "L": [
+                          {
+                            "M": {
+                              "axles": {
+                                "S": "string"
+                              },
+                              "value": {
+                                "N": "0"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "length": {
+                        "N": "0"
+                      },
+                      "width": {
+                        "N": "0"
+                      }
+                    }
+                  },
+                  "updateType": {
+                    "S": "techRecordUpdate"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "bodyType": {
+                    "M": {
+                      "code": {
+                        "S": "a"
+                      },
+                      "description": {
+                        "S": "articulated"
+                      }
+                    }
+                  },
+                  "notes": {
+                    "S": "string"
+                  },
+                  "functionCode": {
+                    "S": "A"
+                  },
+                  "lastUpdatedAt": {
+                    "S": "2020-06-18T13:33:21.151Z"
+                  },
+                  "brakes": {
+                    "M": {
+                      "dtpNumber": {
+                        "S": "DTPNUM"
+                      }
+                    }
+                  },
+                  "offRoad": {
+                    "BOOL": true
+                  },
+                  "axles": {
+                    "L": [
+                      {
+                        "M": {
+                          "axleNumber": {
+                            "N": "0"
+                          },
+                          "tyres": {
+                            "M": {
+                              "tyreSize": {
+                                "S": "string"
+                              },
+                              "fitmentCode": {
+                                "S": "double"
+                              },
+                              "dataTrAxles": {
+                                "N": "0"
+                              },
+                              "plyRating": {
+                                "S": "a"
+                              },
+                              "tyreCode": {
+                                "N": "0"
+                              }
+                            }
+                          },
+                          "parkingBrakeMrk": {
+                            "BOOL": true
+                          },
+                          "weights": {
+                            "M": {
+                              "gbWeight": {
+                                "N": "0"
+                              },
+                              "designWeight": {
+                                "N": "0"
+                              },
+                              "eecWeight": {
+                                "N": "0"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "frontAxleTo5thWheelCouplingMin": {
+                    "N": "0"
+                  },
+                  "createdAt": {
+                    "S": "2019-06-27T10:26:54.903Z"
+                  },
+                  "grossGbWeight": {
+                    "N": "6"
+                  },
+                  "microfilm": {
+                    "M": {
+                      "microfilmSerialNumber": {
+                        "S": "1234"
+                      },
+                      "microfilmRollNumber": {
+                        "S": "12367"
+                      },
+                      "microfilmDocumentType": {
+                        "S": "PSV Miscellaneous"
+                      }
+                    }
+                  },
+                  "variantVersionNumber": {
+                    "S": "3435"
+                  },
+                  "model": {
+                    "S": "string"
+                  },
+                  "noOfAxles": {
+                    "N": "0"
+                  },
+                  "maxTrainGbWeight": {
+                    "N": "0"
+                  },
+                  "vehicleType": {
+                    "S": "hgv"
+                  },
+                  "grossDesignWeight": {
+                    "N": "0"
+                  },
+                  "plates": {
+                    "L": [
+                      {
+                        "M": {
+                          "plateIssueDate": {
+                            "S": "2019-12-13"
+                          },
+                          "plateReasonForIssue": {
+                            "S": "Free replacement"
+                          },
+                          "plateSerialNumber": {
+                            "S": "555666"
+                          },
+                          "plateIssuer": {
+                            "S": "Nobody"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "vehicleConfiguration": {
+                    "S": "rigid"
+                  },
+                  "regnDate": {
+                    "S": "2019-12-13"
+                  },
+                  "tachoExemptMrk": {
+                    "BOOL": true
+                  },
+                  "trainGbWeight": {
+                    "N": "0"
+                  },
+                  "maxTrainEecWeight": {
+                    "N": "0"
+                  },
+                  "reasonForCreation": {
+                    "S": "string"
+                  },
+                  "roadFriendly": {
+                    "BOOL": true
+                  },
+                  "euVehicleCategory": {
+                    "S": "m1"
+                  },
+                  "statusCode": {
+                    "S": "archived"
+                  },
+                  "lastUpdatedByName": {
+                    "S": "sean"
+                  },
+                  "frontAxleToRearAxle": {
+                    "N": "0"
+                  },
+                  "drawbarCouplingFitted": {
+                    "BOOL": true
+                  },
+                  "variantNumber": {
+                    "S": "22"
+                  },
+                  "approvalType": {
+                    "S": "NTA"
+                  },
+                  "approvalTypeNumber": {
+                    "S": "string"
+                  },
+                  "conversionRefNo": {
+                    "S": "string"
+                  },
+                  "maxTrainDesignWeight": {
+                    "N": "0"
+                  },
+                  "applicantDetails": {
+                    "M": {
+                      "emailAddress": {
+                        "S": "string"
+                      },
+                      "telephoneNumber": {
+                        "S": "string"
+                      },
+                      "address3": {
+                        "S": "string"
+                      },
+                      "address2": {
+                        "S": "string"
+                      },
+                      "address1": {
+                        "S": "string"
+                      },
+                      "name": {
+                        "S": "string"
+                      },
+                      "postCode": {
+                        "S": "string"
+                      },
+                      "postTown": {
+                        "S": "string"
+                      }
+                    }
+                  },
+                  "lastUpdatedById": {
+                    "S": "12345"
+                  },
+                  "euroStandard": {
+                    "S": "string"
+                  },
+                  "vehicleClass": {
+                    "M": {
+                      "code": {
+                        "S": "2"
+                      },
+                      "description": {
+                        "S": "motorbikes over 200cc or with a sidecar"
+                      }
+                    }
+                  },
+                  "make": {
+                    "S": "string"
+                  },
+                  "speedLimiterMrk": {
+                    "BOOL": true
+                  },
+                  "frontAxleTo5thWheelCouplingMax": {
+                    "N": "0"
+                  },
+                  "recordCompleteness": {
+                    "S": "complete"
+                  },
+                  "grossEecWeight": {
+                    "N": "0"
+                  },
+                  "frontAxleTo5thWheelMax": {
+                    "N": "0"
+                  },
+                  "ntaNumber": {
+                    "S": "string"
+                  },
+                  "emissionsLimit": {
+                    "N": "0"
+                  },
+                  "fuelPropulsionSystem": {
+                    "S": "DieselPetrol"
+                  },
+                  "trainDesignWeight": {
+                    "N": "0"
+                  },
+                  "adrDetails": {
+                    "M": {
+                      "vehicleDetails": {
+                        "M": {
+                          "approvalDate": {
+                            "S": "2019-10-10"
+                          },
+                          "type": {
+                            "S": "Centre axle battery"
+                          }
+                        }
+                      },
+                      "applicantDetails": {
+                        "M": {
+                          "town": {
+                            "S": "string"
+                          },
+                          "city": {
+                            "S": "string"
+                          },
+                          "street": {
+                            "S": "string"
+                          },
+                          "name": {
+                            "S": "string"
+                          },
+                          "postcode": {
+                            "S": "string"
+                          }
+                        }
+                      },
+                      "permittedDangerousGoods": {
+                        "L": [
+                          {
+                            "S": "FP <61 (FL)"
+                          }
+                        ]
+                      },
+                      "additionalExaminerNotes": {
+                        "S": "string"
+                      },
+                      "memosApply": {
+                        "L": [
+                          {
+                            "S": "07/09 3mth leak ext"
+                          }
+                        ]
+                      },
+                      "additionalNotes": {
+                        "M": {
+                          "number": {
+                            "L": [
+                              {
+                                "S": "1"
+                              },
+                              {
+                                "S": "2"
+                              }
+                            ]
+                          },
+                          "guidanceNotes": {
+                            "L": [
+                              {
+                                "S": "New certificate requested"
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "tank": {
+                        "M": {
+                          "tankDetails": {
+                            "M": {
+                              "yearOfManufacture": {
+                                "N": "0"
+                              },
+                              "tc2Details": {
+                                "M": {
+                                  "tc2Type": {
+                                    "S": "initial"
+                                  }
+                                }
+                              },
+                              "specialProvisions": {
+                                "S": "string"
+                              },
+                              "tankManufacturerSerialNo": {
+                                "S": "string"
+                              },
+                              "tankCode": {
+                                "S": "string"
+                              },
+                              "tankTypeAppNo": {
+                                "S": "string"
+                              },
+                              "tankManufacturer": {
+                                "S": "string"
+                              }
+                            }
+                          },
+                          "tankStatement": {
+                            "M": {
+                              "statement": {
+                                "S": "string"
+                              },
+                              "substancesPermitted": {
+                                "S": "Substances permitted under the tank code and any special provisions specified in 9 may be carried"
+                              },
+                              "productList": {
+                                "S": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "trainEecWeight": {
+                    "N": "0"
+                  },
+                  "tyreUseCode": {
+                    "S": "2"
+                  },
+                  "frontAxleTo5thWheelMin": {
+                    "N": "0"
+                  },
+                  "manufactureYear": {
+                    "N": "0"
+                  },
+                  "numberOfWheelsDriven": {
+                    "NULL": true
+                  },
+                  "dimensions": {
+                    "M": {
+                      "axleSpacing": {
+                        "L": [
+                          {
+                            "M": {
+                              "axles": {
+                                "S": "string"
+                              },
+                              "value": {
+                                "N": "0"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "length": {
+                        "N": "0"
+                      },
+                      "width": {
+                        "N": "0"
+                      }
+                    }
+                  },
+                  "updateType": {
+                    "S": "techRecordUpdate"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "bodyType": {
+                    "M": {
+                      "code": {
+                        "S": "a"
+                      },
+                      "description": {
+                        "S": "articulated"
+                      }
+                    }
+                  },
+                  "createdByName": {
+                    "S": "sean"
+                  },
+                  "notes": {
+                    "S": "string"
+                  },
+                  "functionCode": {
+                    "S": "A"
+                  },
+                  "brakes": {
+                    "M": {
+                      "dtpNumber": {
+                        "S": "DTPNUM"
+                      }
+                    }
+                  },
+                  "offRoad": {
+                    "BOOL": true
+                  },
+                  "axles": {
+                    "L": [
+                      {
+                        "M": {
+                          "axleNumber": {
+                            "N": "0"
+                          },
+                          "tyres": {
+                            "M": {
+                              "tyreSize": {
+                                "S": "string"
+                              },
+                              "fitmentCode": {
+                                "S": "double"
+                              },
+                              "dataTrAxles": {
+                                "N": "0"
+                              },
+                              "plyRating": {
+                                "S": "a"
+                              },
+                              "tyreCode": {
+                                "N": "0"
+                              }
+                            }
+                          },
+                          "parkingBrakeMrk": {
+                            "BOOL": true
+                          },
+                          "weights": {
+                            "M": {
+                              "gbWeight": {
+                                "N": "0"
+                              },
+                              "designWeight": {
+                                "N": "0"
+                              },
+                              "eecWeight": {
+                                "N": "0"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "frontAxleTo5thWheelCouplingMin": {
+                    "N": "0"
+                  },
+                  "createdAt": {
+                    "S": "2020-06-15T13:33:21.151Z"
+                  },
+                  "grossGbWeight": {
+                    "N": "6"
+                  },
+                  "microfilm": {
+                    "M": {
+                      "microfilmSerialNumber": {
+                        "S": "1234"
+                      },
+                      "microfilmRollNumber": {
+                        "S": "12367"
+                      },
+                      "microfilmDocumentType": {
+                        "S": "PSV Miscellaneous"
+                      }
+                    }
+                  },
+                  "variantVersionNumber": {
+                    "S": "3435"
+                  },
+                  "model": {
+                    "S": "string"
+                  },
+                  "noOfAxles": {
+                    "N": "0"
+                  },
+                  "maxTrainGbWeight": {
+                    "N": "0"
+                  },
+                  "vehicleType": {
+                    "S": "hgv"
+                  },
+                  "grossDesignWeight": {
+                    "N": "0"
+                  },
+                  "createdById": {
+                    "S": "12345"
+                  },
+                  "plates": {
+                    "L": [
+                      {
+                        "M": {
+                          "plateIssueDate": {
+                            "S": "2200-12-13"
+                          },
+                          "plateReasonForIssue": {
+                            "S": "Free replacement"
+                          },
+                          "plateSerialNumber": {
+                            "S": "123445"
+                          },
+                          "plateIssuer": {
+                            "S": "string"
+                          }
+                        }
+                      },
+                      {
+                        "M": {
+                          "plateIssueDate": {
+                            "S": "2019-12-13"
+                          },
+                          "plateReasonForIssue": {
+                            "S": "Free replacement"
+                          },
+                          "plateSerialNumber": {
+                            "S": "555666"
+                          },
+                          "plateIssuer": {
+                            "S": "Nobody"
+                          }
+                        }
+                      },
+                      {
+                        "M": {
+                          "plateIssueDate": {
+                            "S": "2020-11-24"
+                          },
+                          "plateReasonForIssue": {
+                            "S": "Free replacement"
+                          },
+                          "plateSerialNumber": {
+                            "S": "111222"
+                          },
+                          "plateIssuer": {
+                            "S": "Dorel"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "vehicleConfiguration": {
+                    "S": "rigid"
+                  },
+                  "regnDate": {
+                    "S": "2019-12-13"
+                  },
+                  "tachoExemptMrk": {
+                    "BOOL": true
+                  },
+                  "trainGbWeight": {
+                    "N": "0"
+                  },
+                  "maxTrainEecWeight": {
+                    "N": "0"
+                  },
+                  "reasonForCreation": {
+                    "S": "string"
+                  },
+                  "roadFriendly": {
+                    "BOOL": true
+                  },
+                  "euVehicleCategory": {
+                    "S": "m1"
+                  },
+                  "statusCode": {
+                    "S": "current"
+                  },
+                  "frontAxleToRearAxle": {
+                    "N": "0"
+                  },
+                  "drawbarCouplingFitted": {
+                    "BOOL": true
+                  },
+                  "variantNumber": {
+                    "S": "22"
+                  },
+                  "approvalType": {
+                    "S": "NTA"
+                  },
+                  "approvalTypeNumber": {
+                    "S": "string"
+                  },
+                  "conversionRefNo": {
+                    "S": "string"
+                  },
+                  "maxTrainDesignWeight": {
+                    "N": "0"
+                  },
+                  "applicantDetails": {
+                    "M": {
+                      "emailAddress": {
+                        "S": "string"
+                      },
+                      "telephoneNumber": {
+                        "S": "string"
+                      },
+                      "address3": {
+                        "S": "string"
+                      },
+                      "address2": {
+                        "S": "string"
+                      },
+                      "address1": {
+                        "S": "string"
+                      },
+                      "name": {
+                        "S": "string"
+                      },
+                      "postCode": {
+                        "S": "string"
+                      },
+                      "postTown": {
+                        "S": "string"
+                      }
+                    }
+                  },
+                  "euroStandard": {
+                    "S": "string"
+                  },
+                  "vehicleClass": {
+                    "M": {
+                      "code": {
+                        "S": "2"
+                      },
+                      "description": {
+                        "S": "motorbikes over 200cc or with a sidecar"
+                      }
+                    }
+                  },
+                  "make": {
+                    "S": "string"
+                  },
+                  "speedLimiterMrk": {
+                    "BOOL": true
+                  },
+                  "frontAxleTo5thWheelCouplingMax": {
+                    "N": "0"
+                  },
+                  "recordCompleteness": {
+                    "S": "complete"
+                  },
+                  "grossEecWeight": {
+                    "N": "0"
+                  },
+                  "frontAxleTo5thWheelMax": {
+                    "N": "0"
+                  },
+                  "ntaNumber": {
+                    "S": "string"
+                  },
+                  "emissionsLimit": {
+                    "N": "0"
+                  },
+                  "fuelPropulsionSystem": {
+                    "S": "DieselPetrol"
+                  },
+                  "trainDesignWeight": {
+                    "N": "0"
+                  },
+                  "adrDetails": {
+                    "M": {
+                      "vehicleDetails": {
+                        "M": {
+                          "approvalDate": {
+                            "S": "2019-10-10"
+                          },
+                          "type": {
+                            "S": "Centre axle battery"
+                          }
+                        }
+                      },
+                      "applicantDetails": {
+                        "M": {
+                          "town": {
+                            "S": "string"
+                          },
+                          "city": {
+                            "S": "string"
+                          },
+                          "street": {
+                            "S": "string"
+                          },
+                          "name": {
+                            "S": "string"
+                          },
+                          "postcode": {
+                            "S": "string"
+                          }
+                        }
+                      },
+                      "permittedDangerousGoods": {
+                        "L": [
+                          {
+                            "S": "FP <61 (FL)"
+                          }
+                        ]
+                      },
+                      "additionalExaminerNotes": {
+                        "S": "string"
+                      },
+                      "memosApply": {
+                        "L": [
+                          {
+                            "S": "07/09 3mth leak ext"
+                          }
+                        ]
+                      },
+                      "additionalNotes": {
+                        "M": {
+                          "number": {
+                            "L": [
+                              {
+                                "S": "1"
+                              },
+                              {
+                                "S": "2"
+                              }
+                            ]
+                          },
+                          "guidanceNotes": {
+                            "L": [
+                              {
+                                "S": "New certificate requested"
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "tank": {
+                        "M": {
+                          "tankDetails": {
+                            "M": {
+                              "yearOfManufacture": {
+                                "N": "0"
+                              },
+                              "tc2Details": {
+                                "M": {
+                                  "tc2Type": {
+                                    "S": "initial"
+                                  }
+                                }
+                              },
+                              "specialProvisions": {
+                                "S": "string"
+                              },
+                              "tankManufacturerSerialNo": {
+                                "S": "string"
+                              },
+                              "tankCode": {
+                                "S": "string"
+                              },
+                              "tankTypeAppNo": {
+                                "S": "string"
+                              },
+                              "tankManufacturer": {
+                                "S": "string"
+                              }
+                            }
+                          },
+                          "tankStatement": {
+                            "M": {
+                              "statement": {
+                                "S": "string"
+                              },
+                              "substancesPermitted": {
+                                "S": "Substances permitted under the tank code and any special provisions specified in 9 may be carried"
+                              },
+                              "productList": {
+                                "S": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "trainEecWeight": {
+                    "N": "0"
+                  },
+                  "tyreUseCode": {
+                    "S": "2"
+                  },
+                  "frontAxleTo5thWheelMin": {
+                    "N": "0"
+                  },
+                  "manufactureYear": {
+                    "N": "0"
+                  },
+                  "numberOfWheelsDriven": {
+                    "NULL": true
+                  },
+                  "dimensions": {
+                    "M": {
+                      "axleSpacing": {
+                        "L": [
+                          {
+                            "M": {
+                              "axles": {
+                                "S": "string"
+                              },
+                              "value": {
+                                "N": "0"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "length": {
+                        "N": "0"
+                      },
+                      "width": {
+                        "N": "0"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "vin": {
+            "S": "ABCDEFGH654321"
+          },
+          "primaryVrm": {
+            "S": "LKJH654"
+          }
+        },
+        "OldImage": {
+          "partialVin": {
+            "S": "654321"
+          },
+          "secondaryVrms": {
+            "L": [
+              {
+                "S": "POI9876"
+              }
+            ]
+          },
+          "systemNumber": {
+            "S": "1100047"
+          },
+          "techRecord": {
+            "L": [
+              {
+                "M": {
+                  "bodyType": {
+                    "M": {
+                      "code": {
+                        "S": "a"
+                      },
+                      "description": {
+                        "S": "articulated"
+                      }
+                    }
+                  },
+                  "notes": {
+                    "S": "string"
+                  },
+                  "functionCode": {
+                    "S": "A"
+                  },
+                  "brakes": {
+                    "M": {
+                      "dtpNumber": {
+                        "S": "DTPNUM"
+                      }
+                    }
+                  },
+                  "offRoad": {
+                    "BOOL": true
+                  },
+                  "axles": {
+                    "L": [
+                      {
+                        "M": {
+                          "axleNumber": {
+                            "N": "0"
+                          },
+                          "tyres": {
+                            "M": {
+                              "tyreSize": {
+                                "S": "string"
+                              },
+                              "fitmentCode": {
+                                "S": "double"
+                              },
+                              "dataTrAxles": {
+                                "N": "0"
+                              },
+                              "plyRating": {
+                                "S": "a"
+                              },
+                              "tyreCode": {
+                                "N": "0"
+                              }
+                            }
+                          },
+                          "parkingBrakeMrk": {
+                            "BOOL": true
+                          },
+                          "weights": {
+                            "M": {
+                              "gbWeight": {
+                                "N": "0"
+                              },
+                              "designWeight": {
+                                "N": "0"
+                              },
+                              "eecWeight": {
+                                "N": "0"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "frontAxleTo5thWheelCouplingMin": {
+                    "N": "0"
+                  },
+                  "createdAt": {
+                    "S": "2019-06-26T10:26:54.903Z"
+                  },
+                  "grossGbWeight": {
+                    "N": "6"
+                  },
+                  "microfilm": {
+                    "M": {
+                      "microfilmSerialNumber": {
+                        "S": "1234"
+                      },
+                      "microfilmRollNumber": {
+                        "S": "12367"
+                      },
+                      "microfilmDocumentType": {
+                        "S": "PSV Miscellaneous"
+                      }
+                    }
+                  },
+                  "variantVersionNumber": {
+                    "S": "3435"
+                  },
+                  "model": {
+                    "S": "string"
+                  },
+                  "noOfAxles": {
+                    "N": "0"
+                  },
+                  "maxTrainGbWeight": {
+                    "N": "0"
+                  },
+                  "vehicleType": {
+                    "S": "hgv"
+                  },
+                  "grossDesignWeight": {
+                    "N": "0"
+                  },
+                  "plates": {
+                    "L": [
+                      {
+                        "M": {
+                          "plateIssueDate": {
+                            "S": "2019-12-13"
+                          },
+                          "plateReasonForIssue": {
+                            "S": "Free replacement"
+                          },
+                          "plateSerialNumber": {
+                            "S": "string"
+                          },
+                          "plateIssuer": {
+                            "S": "string"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "vehicleConfiguration": {
+                    "S": "rigid"
+                  },
+                  "regnDate": {
+                    "S": "2019-12-13"
+                  },
+                  "tachoExemptMrk": {
+                    "BOOL": true
+                  },
+                  "trainGbWeight": {
+                    "N": "0"
+                  },
+                  "maxTrainEecWeight": {
+                    "N": "0"
+                  },
+                  "reasonForCreation": {
+                    "S": "string"
+                  },
+                  "roadFriendly": {
+                    "BOOL": true
+                  },
+                  "euVehicleCategory": {
+                    "S": "m1"
+                  },
+                  "statusCode": {
+                    "S": "provisional"
+                  },
+                  "frontAxleToRearAxle": {
+                    "N": "0"
+                  },
+                  "drawbarCouplingFitted": {
+                    "BOOL": true
+                  },
+                  "variantNumber": {
+                    "S": "22"
+                  },
+                  "approvalType": {
+                    "S": "NTA"
+                  },
+                  "approvalTypeNumber": {
+                    "S": "string"
+                  },
+                  "conversionRefNo": {
+                    "S": "string"
+                  },
+                  "maxTrainDesignWeight": {
+                    "N": "0"
+                  },
+                  "applicantDetails": {
+                    "M": {
+                      "emailAddress": {
+                        "S": "string"
+                      },
+                      "telephoneNumber": {
+                        "S": "string"
+                      },
+                      "address3": {
+                        "S": "string"
+                      },
+                      "address2": {
+                        "S": "string"
+                      },
+                      "address1": {
+                        "S": "string"
+                      },
+                      "name": {
+                        "S": "string"
+                      },
+                      "postCode": {
+                        "S": "string"
+                      },
+                      "postTown": {
+                        "S": "string"
+                      }
+                    }
+                  },
+                  "euroStandard": {
+                    "S": "string"
+                  },
+                  "vehicleClass": {
+                    "M": {
+                      "code": {
+                        "S": "2"
+                      },
+                      "description": {
+                        "S": "motorbikes over 200cc or with a sidecar"
+                      }
+                    }
+                  },
+                  "make": {
+                    "S": "string"
+                  },
+                  "speedLimiterMrk": {
+                    "BOOL": true
+                  },
+                  "frontAxleTo5thWheelCouplingMax": {
+                    "N": "0"
+                  },
+                  "recordCompleteness": {
+                    "S": "complete"
+                  },
+                  "grossEecWeight": {
+                    "N": "0"
+                  },
+                  "frontAxleTo5thWheelMax": {
+                    "N": "0"
+                  },
+                  "ntaNumber": {
+                    "S": "string"
+                  },
+                  "emissionsLimit": {
+                    "N": "0"
+                  },
+                  "fuelPropulsionSystem": {
+                    "S": "DieselPetrol"
+                  },
+                  "trainDesignWeight": {
+                    "N": "0"
+                  },
+                  "adrDetails": {
+                    "M": {
+                      "vehicleDetails": {
+                        "M": {
+                          "approvalDate": {
+                            "S": "2019-10-10"
+                          },
+                          "type": {
+                            "S": "Centre axle battery"
+                          }
+                        }
+                      },
+                      "applicantDetails": {
+                        "M": {
+                          "town": {
+                            "S": "string"
+                          },
+                          "city": {
+                            "S": "string"
+                          },
+                          "street": {
+                            "S": "string"
+                          },
+                          "name": {
+                            "S": "string"
+                          },
+                          "postcode": {
+                            "S": "string"
+                          }
+                        }
+                      },
+                      "permittedDangerousGoods": {
+                        "L": [
+                          {
+                            "S": "FP <61 (FL)"
+                          }
+                        ]
+                      },
+                      "additionalExaminerNotes": {
+                        "S": "string"
+                      },
+                      "memosApply": {
+                        "L": [
+                          {
+                            "S": "07/09 3mth leak ext"
+                          }
+                        ]
+                      },
+                      "additionalNotes": {
+                        "M": {
+                          "number": {
+                            "L": [
+                              {
+                                "S": "1"
+                              },
+                              {
+                                "S": "2"
+                              }
+                            ]
+                          },
+                          "guidanceNotes": {
+                            "L": [
+                              {
+                                "S": "New certificate requested"
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "tank": {
+                        "M": {
+                          "tankDetails": {
+                            "M": {
+                              "yearOfManufacture": {
+                                "N": "0"
+                              },
+                              "tc2Details": {
+                                "M": {
+                                  "tc2Type": {
+                                    "S": "initial"
+                                  }
+                                }
+                              },
+                              "specialProvisions": {
+                                "S": "string"
+                              },
+                              "tankManufacturerSerialNo": {
+                                "S": "string"
+                              },
+                              "tankCode": {
+                                "S": "string"
+                              },
+                              "tankTypeAppNo": {
+                                "S": "string"
+                              },
+                              "tankManufacturer": {
+                                "S": "string"
+                              }
+                            }
+                          },
+                          "tankStatement": {
+                            "M": {
+                              "statement": {
+                                "S": "string"
+                              },
+                              "substancesPermitted": {
+                                "S": "Substances permitted under the tank code and any special provisions specified in 9 may be carried"
+                              },
+                              "productList": {
+                                "S": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "trainEecWeight": {
+                    "N": "0"
+                  },
+                  "tyreUseCode": {
+                    "S": "2"
+                  },
+                  "frontAxleTo5thWheelMin": {
+                    "N": "0"
+                  },
+                  "manufactureYear": {
+                    "N": "0"
+                  },
+                  "numberOfWheelsDriven": {
+                    "NULL": true
+                  },
+                  "dimensions": {
+                    "M": {
+                      "axleSpacing": {
+                        "L": [
+                          {
+                            "M": {
+                              "axles": {
+                                "S": "string"
+                              },
+                              "value": {
+                                "N": "0"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "length": {
+                        "N": "0"
+                      },
+                      "width": {
+                        "N": "0"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "vin": {
+            "S": "ABCDEFGH654321"
+          },
+          "primaryVrm": {
+            "S": "LKJH654"
+          }
+        },
+        "SequenceNumber": "4000000000045807753174",
+        "SizeBytes": 7263,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:eu-west-1:006106226016:table/cvs-cvsb-15599-technical-records/stream/2020-06-15T12:55:16.130"
+    }
+  ]
+}

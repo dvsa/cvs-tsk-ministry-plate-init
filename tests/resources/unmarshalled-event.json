@@ -1,0 +1,500 @@
+[
+  {
+    "partialVin": "654321",
+    "secondaryVrms": [
+      "lelele"
+    ],
+    "systemNumber": "1100047",
+    "techRecord": [
+      {
+        "bodyType": {
+          "code": "a",
+          "description": "articulated"
+        },
+        "notes": "string",
+        "functionCode": "A",
+        "lastUpdatedAt": "2020-06-15T13:33:21.151Z",
+        "brakes": {
+          "dtpNumber": "DTPNUM"
+        },
+        "offRoad": true,
+        "axles": [
+          {
+            "axleNumber": 0,
+            "tyres": {
+              "tyreSize": "string",
+              "fitmentCode": "double",
+              "dataTrAxles": 0,
+              "plyRating": "a",
+              "tyreCode": 0
+            },
+            "parkingBrakeMrk": true,
+            "weights": {
+              "gbWeight": 0,
+              "designWeight": 0,
+              "eecWeight": 0
+            }
+          }
+        ],
+        "frontAxleTo5thWheelCouplingMin": 0,
+        "createdAt": "2019-06-26T10:26:54.903Z",
+        "grossGbWeight": 6,
+        "microfilm": {
+          "microfilmSerialNumber": "1234",
+          "microfilmRollNumber": "12367",
+          "microfilmDocumentType": "PSV Miscellaneous"
+        },
+        "variantVersionNumber": "3435",
+        "model": "string",
+        "noOfAxles": 0,
+        "maxTrainGbWeight": 0,
+        "vehicleType": "hgv",
+        "grossDesignWeight": 0,
+        "plates": [
+          {
+            "plateIssueDate": "2019-12-13",
+            "plateReasonForIssue": "Free replacement",
+            "plateSerialNumber": "string",
+            "plateIssuer": "string"
+          }
+        ],
+        "vehicleConfiguration": "rigid",
+        "regnDate": "2019-12-13",
+        "tachoExemptMrk": true,
+        "trainGbWeight": 0,
+        "maxTrainEecWeight": 0,
+        "reasonForCreation": "string",
+        "roadFriendly": true,
+        "euVehicleCategory": "m1",
+        "statusCode": "archived",
+        "lastUpdatedByName": "sean",
+        "frontAxleToRearAxle": 0,
+        "drawbarCouplingFitted": true,
+        "variantNumber": "22",
+        "approvalType": "NTA",
+        "approvalTypeNumber": "string",
+        "conversionRefNo": "string",
+        "maxTrainDesignWeight": 0,
+        "applicantDetails": {
+          "emailAddress": "string",
+          "telephoneNumber": "string",
+          "address3": "string",
+          "address2": "string",
+          "address1": "string",
+          "name": "string",
+          "postCode": "string",
+          "postTown": "string"
+        },
+        "lastUpdatedById": "12345",
+        "euroStandard": "string",
+        "vehicleClass": {
+          "code": "2",
+          "description": "motorbikes over 200cc or with a sidecar"
+        },
+        "make": "string",
+        "speedLimiterMrk": true,
+        "frontAxleTo5thWheelCouplingMax": 0,
+        "recordCompleteness": "complete",
+        "grossEecWeight": 0,
+        "frontAxleTo5thWheelMax": 0,
+        "ntaNumber": "string",
+        "emissionsLimit": 0,
+        "fuelPropulsionSystem": "DieselPetrol",
+        "trainDesignWeight": 0,
+        "adrDetails": {
+          "vehicleDetails": {
+            "approvalDate": "2019-10-10",
+            "type": "Centre axle battery"
+          },
+          "applicantDetails": {
+            "town": "string",
+            "city": "string",
+            "street": "string",
+            "name": "string",
+            "postcode": "string"
+          },
+          "permittedDangerousGoods": [
+            "FP <61 (FL)"
+          ],
+          "additionalExaminerNotes": "string",
+          "memosApply": [
+            "07/09 3mth leak ext"
+          ],
+          "additionalNotes": {
+            "number": [
+              "1",
+              "2"
+            ],
+            "guidanceNotes": [
+              "New certificate requested"
+            ]
+          },
+          "tank": {
+            "tankDetails": {
+              "yearOfManufacture": 0,
+              "tc2Details": {
+                "tc2Type": "initial"
+              },
+              "specialProvisions": "string",
+              "tankManufacturerSerialNo": "string",
+              "tankCode": "string",
+              "tankTypeAppNo": "string",
+              "tankManufacturer": "string"
+            },
+            "tankStatement": {
+              "statement": "string",
+              "substancesPermitted": "Substances permitted under the tank code and any special provisions specified in 9 may be carried",
+              "productList": "string"
+            }
+          }
+        },
+        "trainEecWeight": 0,
+        "tyreUseCode": "2",
+        "frontAxleTo5thWheelMin": 0,
+        "manufactureYear": 0,
+        "numberOfWheelsDriven": null,
+        "dimensions": {
+          "axleSpacing": [
+            {
+              "axles": "string",
+              "value": 0
+            }
+          ],
+          "length": 0,
+          "width": 0
+        },
+        "updateType": "techRecordUpdate"
+      },
+      {
+        "bodyType": {
+          "code": "a",
+          "description": "articulated"
+        },
+        "notes": "string",
+        "functionCode": "A",
+        "lastUpdatedAt": "2020-06-18T13:33:21.151Z",
+        "brakes": {
+          "dtpNumber": "DTPNUM"
+        },
+        "offRoad": true,
+        "axles": [
+          {
+            "axleNumber": 0,
+            "tyres": {
+              "tyreSize": "string",
+              "fitmentCode": "double",
+              "dataTrAxles": 0,
+              "plyRating": "a",
+              "tyreCode": 0
+            },
+            "parkingBrakeMrk": true,
+            "weights": {
+              "gbWeight": 0,
+              "designWeight": 0,
+              "eecWeight": 0
+            }
+          }
+        ],
+        "frontAxleTo5thWheelCouplingMin": 0,
+        "createdAt": "2019-06-27T10:26:54.903Z",
+        "grossGbWeight": 6,
+        "microfilm": {
+          "microfilmSerialNumber": "1234",
+          "microfilmRollNumber": "12367",
+          "microfilmDocumentType": "PSV Miscellaneous"
+        },
+        "variantVersionNumber": "3435",
+        "model": "string",
+        "noOfAxles": 0,
+        "maxTrainGbWeight": 0,
+        "vehicleType": "hgv",
+        "grossDesignWeight": 0,
+        "plates": [
+          {
+            "plateIssueDate": "2019-12-13",
+            "plateReasonForIssue": "Free replacement",
+            "plateSerialNumber": "555666",
+            "plateIssuer": "Nobody"
+          }
+        ],
+        "vehicleConfiguration": "rigid",
+        "regnDate": "2019-12-13",
+        "tachoExemptMrk": true,
+        "trainGbWeight": 0,
+        "maxTrainEecWeight": 0,
+        "reasonForCreation": "string",
+        "roadFriendly": true,
+        "euVehicleCategory": "m1",
+        "statusCode": "archived",
+        "lastUpdatedByName": "sean",
+        "frontAxleToRearAxle": 0,
+        "drawbarCouplingFitted": true,
+        "variantNumber": "22",
+        "approvalType": "NTA",
+        "approvalTypeNumber": "string",
+        "conversionRefNo": "string",
+        "maxTrainDesignWeight": 0,
+        "applicantDetails": {
+          "emailAddress": "string",
+          "telephoneNumber": "string",
+          "address3": "string",
+          "address2": "string",
+          "address1": "string",
+          "name": "string",
+          "postCode": "string",
+          "postTown": "string"
+        },
+        "lastUpdatedById": "12345",
+        "euroStandard": "string",
+        "vehicleClass": {
+          "code": "2",
+          "description": "motorbikes over 200cc or with a sidecar"
+        },
+        "make": "string",
+        "speedLimiterMrk": true,
+        "frontAxleTo5thWheelCouplingMax": 0,
+        "recordCompleteness": "complete",
+        "grossEecWeight": 0,
+        "frontAxleTo5thWheelMax": 0,
+        "ntaNumber": "string",
+        "emissionsLimit": 0,
+        "fuelPropulsionSystem": "DieselPetrol",
+        "trainDesignWeight": 0,
+        "adrDetails": {
+          "vehicleDetails": {
+            "approvalDate": "2019-10-10",
+            "type": "Centre axle battery"
+          },
+          "applicantDetails": {
+            "town": "string",
+            "city": "string",
+            "street": "string",
+            "name": "string",
+            "postcode": "string"
+          },
+          "permittedDangerousGoods": [
+            "FP <61 (FL)"
+          ],
+          "additionalExaminerNotes": "string",
+          "memosApply": [
+            "07/09 3mth leak ext"
+          ],
+          "additionalNotes": {
+            "number": [
+              "1",
+              "2"
+            ],
+            "guidanceNotes": [
+              "New certificate requested"
+            ]
+          },
+          "tank": {
+            "tankDetails": {
+              "yearOfManufacture": 0,
+              "tc2Details": {
+                "tc2Type": "initial"
+              },
+              "specialProvisions": "string",
+              "tankManufacturerSerialNo": "string",
+              "tankCode": "string",
+              "tankTypeAppNo": "string",
+              "tankManufacturer": "string"
+            },
+            "tankStatement": {
+              "statement": "string",
+              "substancesPermitted": "Substances permitted under the tank code and any special provisions specified in 9 may be carried",
+              "productList": "string"
+            }
+          }
+        },
+        "trainEecWeight": 0,
+        "tyreUseCode": "2",
+        "frontAxleTo5thWheelMin": 0,
+        "manufactureYear": 0,
+        "numberOfWheelsDriven": null,
+        "dimensions": {
+          "axleSpacing": [
+            {
+              "axles": "string",
+              "value": 0
+            }
+          ],
+          "length": 0,
+          "width": 0
+        },
+        "updateType": "techRecordUpdate"
+      },
+      {
+        "bodyType": {
+          "code": "a",
+          "description": "articulated"
+        },
+        "createdByName": "sean",
+        "notes": "string",
+        "functionCode": "A",
+        "brakes": {
+          "dtpNumber": "DTPNUM"
+        },
+        "offRoad": true,
+        "axles": [
+          {
+            "axleNumber": 0,
+            "tyres": {
+              "tyreSize": "string",
+              "fitmentCode": "double",
+              "dataTrAxles": 0,
+              "plyRating": "a",
+              "tyreCode": 0
+            },
+            "parkingBrakeMrk": true,
+            "weights": {
+              "gbWeight": 0,
+              "designWeight": 0,
+              "eecWeight": 0
+            }
+          }
+        ],
+        "frontAxleTo5thWheelCouplingMin": 0,
+        "createdAt": "2020-06-15T13:33:21.151Z",
+        "grossGbWeight": 6,
+        "microfilm": {
+          "microfilmSerialNumber": "1234",
+          "microfilmRollNumber": "12367",
+          "microfilmDocumentType": "PSV Miscellaneous"
+        },
+        "variantVersionNumber": "3435",
+        "model": "string",
+        "noOfAxles": 0,
+        "maxTrainGbWeight": 0,
+        "vehicleType": "hgv",
+        "grossDesignWeight": 0,
+        "createdById": "12345",
+        "plates": [
+          {
+            "plateIssueDate": "2200-12-13",
+            "plateReasonForIssue": "Free replacement",
+            "plateSerialNumber": "123445",
+            "plateIssuer": "string"
+          },
+          {
+            "plateIssueDate": "2019-12-13",
+            "plateReasonForIssue": "Free replacement",
+            "plateSerialNumber": "555666",
+            "plateIssuer": "Nobody"
+          },
+          {
+            "plateIssueDate": "2020-11-24",
+            "plateReasonForIssue": "Free replacement",
+            "plateSerialNumber": "111222",
+            "plateIssuer": "Dorel"
+          }
+        ],
+        "vehicleConfiguration": "rigid",
+        "regnDate": "2019-12-13",
+        "tachoExemptMrk": true,
+        "trainGbWeight": 0,
+        "maxTrainEecWeight": 0,
+        "reasonForCreation": "string",
+        "roadFriendly": true,
+        "euVehicleCategory": "m1",
+        "statusCode": "current",
+        "frontAxleToRearAxle": 0,
+        "drawbarCouplingFitted": true,
+        "variantNumber": "22",
+        "approvalType": "NTA",
+        "approvalTypeNumber": "string",
+        "conversionRefNo": "string",
+        "maxTrainDesignWeight": 0,
+        "applicantDetails": {
+          "emailAddress": "string",
+          "telephoneNumber": "string",
+          "address3": "string",
+          "address2": "string",
+          "address1": "string",
+          "name": "string",
+          "postCode": "string",
+          "postTown": "string"
+        },
+        "euroStandard": "string",
+        "vehicleClass": {
+          "code": "2",
+          "description": "motorbikes over 200cc or with a sidecar"
+        },
+        "make": "string",
+        "speedLimiterMrk": true,
+        "frontAxleTo5thWheelCouplingMax": 0,
+        "recordCompleteness": "complete",
+        "grossEecWeight": 0,
+        "frontAxleTo5thWheelMax": 0,
+        "ntaNumber": "string",
+        "emissionsLimit": 0,
+        "fuelPropulsionSystem": "DieselPetrol",
+        "trainDesignWeight": 0,
+        "adrDetails": {
+          "vehicleDetails": {
+            "approvalDate": "2019-10-10",
+            "type": "Centre axle battery"
+          },
+          "applicantDetails": {
+            "town": "string",
+            "city": "string",
+            "street": "string",
+            "name": "string",
+            "postcode": "string"
+          },
+          "permittedDangerousGoods": [
+            "FP <61 (FL)"
+          ],
+          "additionalExaminerNotes": "string",
+          "memosApply": [
+            "07/09 3mth leak ext"
+          ],
+          "additionalNotes": {
+            "number": [
+              "1",
+              "2"
+            ],
+            "guidanceNotes": [
+              "New certificate requested"
+            ]
+          },
+          "tank": {
+            "tankDetails": {
+              "yearOfManufacture": 0,
+              "tc2Details": {
+                "tc2Type": "initial"
+              },
+              "specialProvisions": "string",
+              "tankManufacturerSerialNo": "string",
+              "tankCode": "string",
+              "tankTypeAppNo": "string",
+              "tankManufacturer": "string"
+            },
+            "tankStatement": {
+              "statement": "string",
+              "substancesPermitted": "Substances permitted under the tank code and any special provisions specified in 9 may be carried",
+              "productList": "string"
+            }
+          }
+        },
+        "trainEecWeight": 0,
+        "tyreUseCode": "2",
+        "frontAxleTo5thWheelMin": 0,
+        "manufactureYear": 0,
+        "numberOfWheelsDriven": null,
+        "dimensions": {
+          "axleSpacing": [
+            {
+              "axles": "string",
+              "value": 0
+            }
+          ],
+          "length": 0,
+          "width": 0
+        }
+      }
+    ],
+    "vin": "ABCDEFGH654321",
+    "primaryVrm": "LKJH654"
+  }
+]
